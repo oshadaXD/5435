@@ -711,7 +711,7 @@ reply(efhzm)}
                 neww = performance.now()
                 oldd = performance.now()
                 respon = `
-
+Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
 Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
